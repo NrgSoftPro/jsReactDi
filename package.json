@@ -1,0 +1,20 @@
+{
+  "name": "@nrg/react-di",
+  "version": "1.0.0-beta.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NrgSoftPro/jsReactDi"
+  },
+  "author": "NrgSoft",
+  "license": "MIT",
+  "description": "@nrg/react-di",
+  "bugs": {
+    "url": "https://github.com/NrgSoftPro/jsReactDi/issues"
+  },
+  "homepage": "https://github.com/NrgSoftPro/jsReactDi",
+  "dependencies": {
+    "@nrg/core": "^1.0.0-beta.2",
+    "react": "^16.8.6"
+  }
+}

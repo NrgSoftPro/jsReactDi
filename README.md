@@ -1,1 +1,2 @@
 # jsReactDi
+@nrg/react-di
