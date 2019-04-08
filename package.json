@@ -1,7 +1,7 @@
 {
   "name": "@nrg/react-di",
   "version": "1.0.0-beta.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NrgSoftPro/jsReactDi"
@@ -13,8 +13,21 @@
     "url": "https://github.com/NrgSoftPro/jsReactDi/issues"
   },
   "homepage": "https://github.com/NrgSoftPro/jsReactDi",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --mode production"
+  },
   "dependencies": {
     "@nrg/core": "^1.0.0-beta.2",
     "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
